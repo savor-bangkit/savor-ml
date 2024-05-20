@@ -2,7 +2,9 @@ import os
 import shutil
 import glob
 
-needed_folder = ['FLOUR', 'OIL', 'PASTA', 'CAKE', 'MILK', 'TOMATO_SAUCE', 'CEREAL']
+needed_folder = ['FLOUR', 'OIL', 'PASTA', 'CAKE', 'MILK', 'TOMATO_SAUCE', 'CEREAL',
+                 'WATER', 'SODA', 'JUICE', 'COFFEE', 'TEA', 'SPICES', 'SUGAR', 'JAM'
+                 ]
 root = r"C:\xampp1\htdocs\savor-ml"
 
 freiburg_dataset = os.path.join(root, "freiburg_groceries_dataset")
