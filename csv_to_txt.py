@@ -1,3 +1,4 @@
+# this script is already included and will be ran in YOLO_Format.ipynb
 # Command : py csv_to_txt.py -i Combined_files.csv -o data/labels
 
 import os 
