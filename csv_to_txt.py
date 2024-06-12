@@ -7,7 +7,7 @@ import pandas as pd
 from pandas.core.algorithms import unique
 import shutil
 
-#tambah file annotation dibawahnya yang udah ada jangan dihapus
+#tambah file annotation dibawahnya yang udah ada jangan dihapus biar angka classnya nyambung
 csv_files = [
     'cleaned_data\Cucumber\Cucumber_annotations.csv',
     'cleaned_data\Spinach\Spinach_annotations.csv'
@@ -86,3 +86,5 @@ if __name__ == '__main__':
 
     # Call the function
     csv_to_txt(args["input"] , args["output"])   
+
+shutil.rmtree(combined_files)
