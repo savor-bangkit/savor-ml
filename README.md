@@ -5,6 +5,15 @@
 # About The Model
 TBA
 
+# Dataset Sources
+[Apple](URL)
+[Banana](URL)
+[Chicken](URL)
+[Cucumber](URL)
+[Egg](URL)
+[Fish](URL)
+[Spinach](URL)
+
 # How to Reproduce on Your Machine
 TBA
 
