@@ -43,23 +43,18 @@ The SAVOR model is designed to help individuals and organizations reduce food wa
    jupyter notebook "Step 2 - Data Preprocessing.ipynb"
    ```
 
-6. **YOLO Formatting:**
-   Format the data for YOLO model training:
+6. **Formatting:**
+   Format the data for model training:
    ```
    jupyter notebook "Step 3 - YOLO Formatting.ipynb"
    ```
 
-7. **Train the Model:**
-   Train the YOLO model using the preprocessed data:
+7. **Train the Model and preprocess the data**
+   Train the model using the preprocessed data:
    ```
    jupyter notebook "Step 4 - Train Model.ipynb"
    ```
 
-8. **Run Predictions:**
-   Use the trained YOLO model to make predictions:
-   ```
-   python predict.py --input your_input_file.csv --output your_output_file.csv
-   ```
 
 
 # ML Cohorts
