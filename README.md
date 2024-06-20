@@ -18,7 +18,7 @@ The SAVOR model is designed to help individuals and organizations reduce food wa
 # How to Reproduce on Your Machine
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/your-repo/savor.git
+   git clone https://github.com/savor-bangkit/savor-ml.git
    cd savor
    ```
 
@@ -31,26 +31,32 @@ The SAVOR model is designed to help individuals and organizations reduce food wa
 3. **Download Datasets:**
    Download the datasets from the provided sources and place them in the `data` directory within the project folder.
 
-4. **Preprocess Data:**
-   Run the preprocessing script to prepare the data for model training:
+4. **Data Formatting:**
+   Run the data formatting script to prepare the datasets:
    ```
-   python preprocess.py
-   ```
-
-5. **Train the Model:**
-   Train the model using the preprocessed data:
-   ```
-   python train.py
+   jupyter notebook "Step 1 - Data Formatting.ipynb"
    ```
 
-6. **Evaluate the Model:**
-   Evaluate the model's performance on the test dataset:
+5. **Data Preprocessing:**
+   Preprocess the formatted data for model training:
    ```
-   python evaluate.py
+   jupyter notebook "Step 2 - Data Preprocessing.ipynb"
    ```
 
-7. **Run Predictions:**
-   Use the trained model to make predictions:
+6. **YOLO Formatting:**
+   Format the data for YOLO model training:
+   ```
+   jupyter notebook "Step 3 - YOLO Formatting.ipynb"
+   ```
+
+7. **Train the Model:**
+   Train the YOLO model using the preprocessed data:
+   ```
+   jupyter notebook "Step 4 - Train Model.ipynb"
+   ```
+
+8. **Run Predictions:**
+   Use the trained YOLO model to make predictions:
    ```
    python predict.py --input your_input_file.csv --output your_output_file.csv
    ```
