@@ -2,10 +2,15 @@ train: ./data/train/images
 val: ./data/valid/images
 
 #change the num of class here
-nc: 2
+nc: 7
 
 #masukin urut sesuai nomor hasil csv_to_txt.py
 names: [
+  'apple',
+  'banana',
+  'chicken',
   'cucumber', 
+  'egg',
+  'fish',
   'spinach'
   ]
