@@ -22,34 +22,30 @@ The SAVOR model is designed to help individuals and organizations reduce food wa
    cd savor
    ```
 
-2. **Install Dependencies:**
-   Ensure you have Python installed. Then, install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
+2. **Setup Enviroment**
+   Ensure your enviroment is properly setup by installing python all the library imported in the jupyter notebook file.
+   To install python, check https://www.python.org/downloads/ for guides.
+   To install other packages, check https://packaging.python.org/en/latest/tutorials/installing-packages/ for guides.
 
-3. **Download Datasets:**
-   Download the datasets from the provided sources and place them in the `data` directory within the project folder.
-
-4. **Data Formatting:**
-   Run the data formatting script to prepare the datasets:
+3. **Data Formatting:**
+   Place the dataset file in the same directory as the notebook and Run the data formatting script to prepare the datasets. Remember to change the directory in the notebook accordingly. 
    ```
    jupyter notebook "Step 1 - Data Formatting.ipynb"
    ```
 
-5. **Data Preprocessing:**
+4. **Data Preprocessing:**
    Preprocess the formatted data for model training:
    ```
    jupyter notebook "Step 2 - Data Preprocessing.ipynb"
    ```
 
-6. **Formatting:**
+5. **Formatting:**
    Format the data for model training:
    ```
    jupyter notebook "Step 3 - YOLO Formatting.ipynb"
    ```
 
-7. **Train the Model and preprocess the data**
+6. **Train the Model and preprocess the data**
    Train the model using the preprocessed data:
    ```
    jupyter notebook "Step 4 - Train Model.ipynb"
